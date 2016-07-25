@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Soft Computing & Machine Learing</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/navbar2.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+<script src="js/bootstrap-tab.js"></script>
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/cufon-yui.js"></script>
+<script src="js/cufon-replace.js"></script>
+<script src="js/Vegur_500.font.js"></script>
+<script src="js/Ropa_Sans_400.font.js"></script>
+<script src="js/FF-cash.js"></script>
+<script src="js/tms-0.3.js"></script>
+<script src="js/tms_presets.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script>
+<script>
+      
+        function minimize_acc()
+        {
+            $("#accordion1").accordion({               
+                active: false
+            });
+			 $("#accordion2").accordion({               
+                active: false
+            });
+			$("#accordions").accordion({               
+                active: false
+            });
+        }
+		function minimize_accs()
+        {
+            $("#accordion1").accordion({               
+                active: false
+            });
+			 $("#accordion2").accordion({               
+                active: false
+            });
+			$("#accordion").accordion({               
+                active: false
+            });
+        }
+		function minimize_acc1()
+        {
+            $("#accordion").accordion({               
+                active: false
+            });
+			$("#accordion2").accordion({               
+                active: false
+            });
+			$("#accordions").accordion({               
+                active: false
+            });
+        }
+		function minimize_acc2()
+        {
+            $("#accordion").accordion({               
+                active: false
+            });
+			$("#accordion1").accordion({               
+                active: false
+            });
+			$("#accordions").accordion({               
+                active: false
+            });
+        }
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true,
+                active: false
+            });
+        });
+        $(function () {
+            $("#accordion1").accordion({
+                collapsible: true,
+                active: false
+            });
+        });
+        $(function () {
+            $("#accordion2").accordion({
+                collapsible: true,
+            });
+        });
+		$(function () {
+            $("#accordions").accordion({
+                collapsible: true,
+				active:false
+            });
+        }); 
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<![endif]-->
+</head>
+<body id="page2">
+<!--==============================header=================================-->
+<header>
+  <div class="border-bot">
+    <div class="main">
+      <h1><a href="index.html">Griet-cse</a></h1>
+      <ul id="navmenu">
+  <li class="active"><a href="index.html">Home</a></li>   
+  <li class="active"><a href="teaching.html">Faculty <b class="caret"></b></a>
+  		<ul>
+          <li><a href="teaching.html">&nbspTeaching&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+         <li><a href="nonteaching.html">&nbspNonTeaching</a></li>
+        </ul>
+  </li>   
+  <li><a href="">Programs <b class="caret"></b></a>
+    <ul>
+
+         <li><a href="http://www.griet.in/cse/programbtechcse.php">B-Tech &nbsp&nbsp&nbsp&nbsp&nbsp<b class="right-caret"></b></a>
+				<ul>
+          <li><a href="http://www.griet.in/cse/peobtechcse.php">&nbspPEOs&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+         <li><a href="http://www.griet.in/cse/pobtechcse.php">&nbspPOs&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+        </ul>
+		 </li>
+         <li><a href="mtech.pdf" target="_blank">M-Tech&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+    </ul>
+  </li>
+ <li><a href="infrastructure.html">Infrastructure</a></li>
+                    <li><a href="library.html">Library&nbsp<b class="caret"></b></a>
+						<ul>
+							<li><a href="library.html">cse-library</a></li>
+							<li><a href="http://nptel.iitm.ac.in/courses.php?disciplineId=106">NPTEL &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+						</ul>
+					</li>
+</ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+</header>
+<!--==============================content================================-->
+<section id="content">
+  <div class="main">
+    <div class="container_12">
+		<h3><center>Registration Form</center></h3>
+	  <div style="padding-top:60px;margin-left:140px">
+			<form method="post" action="smtpgmail.php">
+			<div class="row">
+				
+				<div class="span9">
+				<label>Name</label>
+				<input type="text" placeholder="name" class="tagsfocus"></div>
+			</div>
+			<div class="row">
+				<div class="span9">
+				<label>Designation</label>
+				<input type="text" placeholder="Designation" class="tagsfocus">
+				</div>
+			</div>
+			<div class="row">
+				<div class="span9">
+				<label>Applicant's Status :
+				(Faculty /Industry/ Research Scholar/ PG Student Institution) </label>
+				<input type="text" placeholder="Status..." class="tagsfocus">
+				</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="row">
+				<div class="span10">
+				<label>Whether the Institution has AICTE Recognition: </label>
+				<div class="radio"><input type="radio" name="rbtn" id="myRadio">Yes<input type="radio" name="rbtn" id="myRadio">No</div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="row">
+				<div class="span9">
+				<label>EducationalQualifications:</label>
+				<input type="text" placeholder="Qualification...." class="tagsfocus">
+				</div>
+			<div class="row">
+				<div class="span9">
+				<label>Subjects Handled for last three years:</label>
+				<input type="text" placeholder="...." class="tagsfocus">
+				</div>
+				<div class="clearfix"></div>
+			<div class="row">
+				<div class="span9">
+				<label>Experience:(years)</label>
+				<input type="text" placeholder="name" class="tagsfocus">
+				</div>
+			<div class="row">
+				<div class="span9">
+				<label> Teaching: </label>
+				<input type="text" placeholder="Teaching..." class="tagsfocus">
+				</div>
+			<div class="row">
+				<div class="span9">
+				<label>Research: </label>
+				<input type="text" placeholder="Research...." class="tagsfocus">
+				</div>
+			</div>
+			<div class="row">
+				<div class="span9">
+				<label>Industry:</label>
+				<input type="text" placeholder="Industry...." class="tagsfocus">
+				</div>
+			</div>
+			<div class="row">
+				<div class="span9">
+				<label>Any other information:</label>
+				<input type="text" placeholder="....." class="tagsfocus">
+				</div>
+			</div>
+			<div class="row">
+				<div class="span9">
+				<label>Address for 
+				Correspondence with Email id:</label>
+				<input type="text" name="txt1" id="txt1" placeholder="mail..." class="tagsfocus">
+				</div>
+			</div>
+			<div class="row">
+				<!-- <div class="span9" style="padding-top:30px;"> -->
+				<div class="button" align="center"style="padding-top:30px;"><input type="submit" name="btn" value="Submit"></div>
+				</div>
+			</div>
+			</div>
+      <!-- <div class="wrapper" style="text-align:justify;">
+		<img src="images/1.png" alt="">
+		<img src="images/2.png" alt="">	
+      </div> -->
+    </div>
+	</form>
+  </div>
+</section>
+<!--==============================footer=================================-->
+<footer>
+ </footer>
+<script>Cufon.now();</script>
+<script>
+$(window).load(function() {
+	$('.slider')._TMS({
+		duration:1000,
+		easing:'easeOutQuint',
+		preset:'diagonalFade',
+		slideshow:7000,
+		banners:false,
+		pauseOnHover:true,
+		pagination:true,
+		pagNums:false
+	});
+});
+</script>
+</div></body>
+</html>
