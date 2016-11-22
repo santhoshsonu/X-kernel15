@@ -41,17 +41,19 @@
             <a href="index.html">Home</a>
             <a href="#about">About</a>
             <a href="#events">Events</a>
-            <a href="team.html">Team</a> 
             <a href="ppt.html">Paper Presentation</a>
             <a href="expo.html">Project Expo</a>
-            <a href="workshop.html">Workshop</a>          
+            <a href="workshop.html">Workshop</a>
+            <a href="xkernelcup.html">Champion of X-Kernel</a>
+            <a href="team.html">Team</a>           
             <a href="#contact">Contact</a>
             <a href="https://www.facebook.com/xkernel15"><i class="fa fa-facebook"></i></a>
             <a href="mailto:csexkernel15@gmail.com"><i class="fa fa-envelope"></i></a>
         </div>
         
         <!-- Menu button -->
-        <div id="menuToggle"><i class="fa fa-bars"></i></div>
+        <div id="menuToggle" data-toggle="tooltip" title="Hit to explore"><i class="fa fa-bars"></i></div>
+        
     </nav>
 
     <!-- MAIN IMAGE SECTION -->
@@ -65,9 +67,12 @@
                     <h3 class="animated fadeIn">Department of Computer Science and Engineering</h3>
                     <h4 class="animated fadeIn">presents</h4>
                     <img id = "xkernel-img"class="img-responsive animated zoomIn" src="assets/img/Xkernel-font.png" alt="X-KERNEL">
-                        <img src="assets/img/Xkernel-font-HittheBugs.png" class="img-responsive animated fadeIn">               <div class="counter"></div>
+                        <img src="assets/img/Xkernel-font-HittheBugs.png" class="img-responsive animated fadeIn"> 
+                        <br><br>
+                        <a href="timing.html" id="linkToggle" class="text-warning"><i class="fa fa-star">Event Schedule</i></a>
                             
                     <div class="spacer"></div>
+                    
                     <a href="#about"><i class="fa fa-angle-down"></i></a>
 
                 </div>
@@ -149,6 +154,90 @@
                     
                 </div>
             </div><!-- row -->
+            <div class="row mt">
+                <div class="col-lg-12">
+                    <h3 class="text-info">Winners of first round -- Online Quiz.</h3>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>S.no</th>
+                                    <th>Name</th>
+                                    <th>Roll Number</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Lakshmi Bhanu</td>
+                                    <td>12241A05H1</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Madhan Kumar</td>
+                                    <td>12241A05C9</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Y.Vivek vardhan</td>
+                                    <td>14241A04N3</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Mani Sai</td>
+                                    <td>13241A0573</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Maniraj Madishetty</td>
+                                    <td>14241A05E2</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Tejaswini</td>
+                                    <td>11241A0555</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Y.Krishna Teja</td>
+                                    <td>13241A05O0</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Tallada Vamshi</td>
+                                    <td>13241A05H8 </td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>V.Uday</td>
+                                    <td>14241A00A3</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>K.Samatha</td>
+                                    <td>12241A0228</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Sushmitha Boddireddy</td>
+                                    <td>12241A0507</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>A.Shravan</td>
+                                    <td>14241A0402</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>A.V.Vishnu Vardhan</td>
+                                    <td>12241A0563</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h5>If anyone, not in the list wants to know the score, text @ 8686580464. </h5>
+                </div>
+            </div>
             
            <!-- <div class="row mt">
                 <div class="col-lg-4">
@@ -196,7 +285,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <p>Get ready for the key popping coding events on 13 February 2K15.</p>
                     <p>Click here for the online quiz.</p>
-                    <p><button type="button" href="http://goo.gl/forms/CuNvhDM5tM" class="btn btn-green btn-lg disabled">Online Quiz</button></p>
+                    <p><a type="button" href="http://goo.gl/forms/CuNvhDM5tM" class="btn btn-green btn-lg disabled">Online Quiz</a></p>
                 </div>
             </div><!-- row -->
         </div><!-- container -->
@@ -303,7 +392,7 @@ Web page should be developed in launguages like HTML,CSS and JS.</p>
                             <h4>Round 1</h4>
                             <p>A question is given to a participant and it must be implemented on a dark screen using any technical language(c, c++, java) in the time limit of 5 minutes.</p>
                             <h4>Round 2</h4>
-                            <p>t is similar to the first round but a difficult question is given in order to implement the same using the languages. The one who completes the coding on the dark screen without errors will be rewarded.</p>
+                            <p>It is similar to the first round but a difficult question is given in order to implement the same using the languages. The one who completes the coding on the dark screen without errors will be rewarded.</p>
 
                         </div>
                     </div>
@@ -333,7 +422,8 @@ Web page should be developed in launguages like HTML,CSS and JS.</p>
                         </div>
                         <div class="col-lg-8">
                             <h4>Round 1</h4>
-                            <p>The quiz will be held at 10 AM on 12th Feb online.The short listed candidates have to attend the second round which will be held on 13th Feb in college.</p>
+                            <p>The quiz will be held from 9:00 PM to 9:30 PM on 12th Feb online.The short listed candidates have to attend the second round which will be held on 13th Feb in college.</p>
+                             
                             <h4>Round 2</h4>
                             <p>Two programs are given. The candidates have to write efficient code.</p>
 
@@ -341,7 +431,7 @@ Web page should be developed in launguages like HTML,CSS and JS.</p>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-success disabled" data-dismiss="modal" href="#call">Go To Quiz</button>
+                    <button type="button" class="btn btn-success disabled" data-dismiss="modal" href="http://goo.gl/forms/CuNvhDM5tM">Go To Quiz</button>
                     <button type="button" class="btn btn-danger" data-dismiss="modal">CLOSE</button>
                 </div>
             </div>                
@@ -629,5 +719,20 @@ Web page should be developed in launguages like HTML,CSS and JS.</p>
             viewportFactor : 0.2
         } );
     </script>
+
+    <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var $_Tawk_API={},$_Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/54d763d42377808364b7f76e/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+    <!--End of Tawk.to Script-->
+    <script src="//my.hellobar.com/409a094724ceab5058706847e543a67151e731df.js" type="text/javascript" charset="utf-8" async="async"></script>
 </body>
 </html>
